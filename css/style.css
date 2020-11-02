@@ -1,1 +1,1 @@
-/*# sourceMappingURL=style.css.map */
+@font-face{font-family:"shrikhand";src:url(../../Shrikhand-Regular.ttf)}@font-face{font-family:"roboto";src:url(../../Roboto-Regular.ttf)}*{font-family:"roboto"}header{display:flex;justify-content:center;align-items:center}header h1{font-weight:bold;font-style:italic;font-family:"shrikhand";font-size:4rem}/*# sourceMappingURL=style.css.map */
