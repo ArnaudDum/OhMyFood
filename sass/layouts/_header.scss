@@ -2,9 +2,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 130px;
+    padding: 0;
+    margin: 0;
     h1 {
         font-weight: bold;
-        font-style: italic;
         font-family: "shrikhand";
         font-size: 4rem;
     }
