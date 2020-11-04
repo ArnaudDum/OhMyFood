@@ -96,12 +96,12 @@
 
 .resto {
     background-color: $greybg;
-    padding-bottom: 100px;
     padding: 30px;
     .card-part {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 100px;
     }
     h2 {
         font-size: 1.8rem;
