@@ -23,6 +23,7 @@
         flex-direction: column;
         h2 {
             font-size: 2.5rem;
+            font-weight: bold;
         }
         p {
             color: darken($greybg , 50%);
@@ -35,7 +36,7 @@
             border-radius: 100px;
             font-size: 1.1rem;
             color: #FFF;
-            background: linear-gradient($rose, $violet);
+            background: linear-gradient(176deg, $rose, $violet);
             cursor: pointer;
             box-shadow: 0px 5px 5px 5px darken($greybg, 10%);
         }
@@ -46,6 +47,7 @@
     padding: 30px;
     h2 {
         font-size: 1.8rem;
+        font-weight: bold;
     }
     &__etapes {
         display: flex;
@@ -62,8 +64,31 @@
             justify-content: baseline;
             align-items: center;
             box-shadow: 0px 5px 15px darken($greybg, 10%);
+            position: relative;
+            transition: background-color 400ms;
             &:hover {
-                /* BACKGROUND VIOLET A CREER AVEC OPACITY */
+                background-color: #F4ECF7;
+                i {
+                    color: $violet;
+                }
+            }
+            p {
+                font-weight: bold;
+                font-size: 1.1rem;
+                position: absolute;
+                left: -20px;
+                span {
+                    font-weight: normal;
+                    padding: 8px 14px 8px 14px;
+                    background-color: $violet;
+                    border-radius: 20px;
+                    color: #FFF;
+                }
+                i {
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    color: darken($greybg, 50%);
+                }
             }
         }
     }
