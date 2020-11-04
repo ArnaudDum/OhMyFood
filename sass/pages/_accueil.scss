@@ -93,3 +93,56 @@
         }
     }
 }
+
+.resto {
+    background-color: $greybg;
+    padding-bottom: 100px;
+    padding: 30px;
+    .card-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2 {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    &__card {
+        height: 370px;
+        width: 450px;
+        border-radius: 30px;
+        background: $vert;
+        position: relative;
+        margin-top: 30px;
+        &--overlay {
+            width: 100%;
+            height: 100px;
+            background-color: #FFF;
+            border-bottom-left-radius: 28px;
+            border-bottom-right-radius: 28px;
+            position: absolute;
+            bottom: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            div, i {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            i {
+                font-size: 2rem;
+                margin-right: 40px;
+                color: darken($greybg, 50%);
+            }
+            div {
+                h3 {
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                }
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
