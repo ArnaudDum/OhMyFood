@@ -68,13 +68,21 @@ header {
                 }
             }
             .plat {
-                padding: 20px;
+                margin-left: 20px;
                 &__titre {
                     font-size: 1.2rem;
                     font-weight: bold;
+                    margin: 0;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
                 &__in {
                     font-size: 1.1rem;
+                    margin: 0;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
             }
             .anim {
@@ -83,9 +91,11 @@ header {
                 transform: translateX(70px);
                 transition: transform 300ms ease-out;
                 &__prix {
+                    height: 100%;
+                    background-color: #FFF;
                     font-size: 1.1rem;
                     font-weight: bold;
-                    transform: translateY(35px) translateX(-10px);
+                    transform: translateY(27px) translateX(-10px);
                 }
                 &__check {
                     height: 100%;
