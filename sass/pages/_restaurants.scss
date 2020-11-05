@@ -51,26 +51,57 @@ header {
         &--card {
             height: 90px;
             width: 100%;
+            margin-top: 20px;
             background-color: #FFF;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: 20px;
             border-radius: 20px;
             box-shadow: 0px 5px 15px darken($greybg, 10%);
-            .prix {
-                font-weight: bold;
-                padding-right: 20px;
+            overflow: hidden;
+            &:hover {
+                .anim {
+                    transform: translateX(0px);
+                    i {
+                        transform: rotate(360deg);
+                    }
+                }
             }
-            div {
-                margin-left: 20px;
-                h4 {
+            .plat {
+                padding: 20px;
+                &__titre {
                     font-size: 1.2rem;
                     font-weight: bold;
                 }
-                p {
+                &__in {
                     font-size: 1.1rem;
-                    margin-bottom: 30px;
+                }
+            }
+            .anim {
+                display: flex;
+                height: 100%;
+                transform: translateX(70px);
+                transition: transform 300ms ease-out;
+                &__prix {
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                    transform: translateY(35px) translateX(-10px);
+                }
+                &__check {
+                    height: 100%;
+                    width: 70px;
+                    background-color: $vert;
+                    color: #FFF;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.4rem;
+                    margin: 0em;
+                    i {
+                        transform: rotate(0deg);
+                        transition: transform 300ms linear;
+                    }
                 }
             }
         }
