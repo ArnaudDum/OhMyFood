@@ -54,6 +54,12 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        @media (min-width: 599px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
         &--card {
             width: 420px;
             height: 100px;
@@ -101,9 +107,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         justify-content: space-around;
         padding-bottom: 100px;
         height: 1600px;
+        @media (min-width: 599px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: 1000px;
+        }
     }
     h2 {
         font-size: 1.8rem;

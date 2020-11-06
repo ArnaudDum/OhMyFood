@@ -17,4 +17,8 @@ footer {
     i {
         margin-right: 10px;
     }
+    @media (min-width: 599px) {
+        display: flex;
+        justify-content: space-between;
+    }
 }
