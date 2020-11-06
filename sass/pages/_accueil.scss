@@ -54,7 +54,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        @media (min-width: 599px) {
+        @media (min-width: 1024px) {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -111,7 +111,7 @@
         justify-content: space-around;
         padding-bottom: 100px;
         height: 1600px;
-        @media (min-width: 599px) {
+        @media (min-width: 1024px) {
             display: flex;
             flex-direction: column;
             align-items: center;
