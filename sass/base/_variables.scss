@@ -2,3 +2,14 @@ $violet: #9256dc;
 $rose: #FF79DA;
 $vert: #99E2D0;
 $greybg: #F2F2F2;
+
+@keyframes anim-menu {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    };
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    };
+}

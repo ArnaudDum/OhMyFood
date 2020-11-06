@@ -19,10 +19,36 @@ header {
     }
 }
 
-.photo {
+.photo1 {
     height: 350px;
     width: 100%;
-    background-color: $vert;
+    background-image: url(../../OMF/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo2 {
+    height: 350px;
+    width: 100%;
+    background-image: url(../../OMF/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo3 {
+    height: 350px;
+    width: 100%;
+    background-image: url(../../OMF/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo4 {
+    height: 350px;
+    width: 100%;
+    background-image: url(../../OMF/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .menu {
@@ -59,6 +85,7 @@ header {
             border-radius: 20px;
             box-shadow: 0px 5px 15px darken($greybg, 10%);
             overflow: hidden;
+            animation: anim-menu 300ms 1000ms both ease-out;
             &:hover {
                 .anim {
                     transform: translateX(0px);
@@ -131,3 +158,33 @@ header {
     }
 }
 
+.plat1 {
+    animation-delay: 1000ms;
+}
+.plat2 {
+    animation-delay: 1300ms;
+}
+.plat3 {
+    animation-delay: 1600ms;
+}
+.plat4 {
+    animation-delay: 1900ms;
+}
+.plat5 {
+    animation-delay: 2200ms;
+}
+.plat6 {
+    animation-delay: 2500ms;
+}
+.plat7 {
+    animation-delay: 2800ms;
+}
+.plat8 {
+    animation-delay: 3100ms;
+}
+.plat9 {
+    animation-delay: 3400ms;
+}
+.plat10 {
+    animation-delay: 3700ms;
+}
