@@ -20,43 +20,41 @@ header {
 }
 
 .photo1 {
-    height: 350px;
-    width: 100%;
+    @include photo-resto;
     background-image: url(../../OMF/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
+    .topoverlay {
+        @include overlaytitre
+    }
 }
 
 .photo2 {
-    height: 350px;
-    width: 100%;
+    @include photo-resto;
     background-image: url(../../OMF/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);;
-    background-position: center;
-    background-size: cover;
+    .topoverlay {
+        @include overlaytitre;
+    }
 }
 
 .photo3 {
-    height: 350px;
-    width: 100%;
+    @include photo-resto;
     background-image: url(../../OMF/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
+    .topoverlay {
+        @include overlaytitre
+    }
 }
 
 .photo4 {
-    height: 350px;
-    width: 100%;
+    @include photo-resto;
     background-image: url(../../OMF/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
+    .topoverlay {
+        @include overlaytitre
+    }
 }
 
 .menu {
     background-color: $greybg;
     margin: 0px;
-    padding: 30px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    padding: 0 30px 30px 30px;
     display: flex;
     flex-direction: column;
     &__titre {
@@ -162,29 +160,29 @@ header {
     animation-delay: 1000ms;
 }
 .plat2 {
-    animation-delay: 1300ms;
+    animation-delay: 1200ms;
 }
 .plat3 {
-    animation-delay: 1600ms;
+    animation-delay: 1400ms;
 }
 .plat4 {
-    animation-delay: 1900ms;
+    animation-delay: 1600ms;
 }
 .plat5 {
-    animation-delay: 2200ms;
+    animation-delay: 1800ms;
 }
 .plat6 {
-    animation-delay: 2500ms;
+    animation-delay: 2000ms;
 }
 .plat7 {
-    animation-delay: 2800ms;
+    animation-delay: 2200ms;
 }
 .plat8 {
-    animation-delay: 3100ms;
+    animation-delay: 2400ms;
 }
 .plat9 {
-    animation-delay: 3400ms;
+    animation-delay: 2600ms;
 }
 .plat10 {
-    animation-delay: 3700ms;
+    animation-delay: 2800ms;
 }
