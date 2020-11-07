@@ -2,6 +2,8 @@ $violet: #9256dc;
 $rose: #FF79DA;
 $vert: #99E2D0;
 $greybg: #F2F2F2;
+$btn-color1: linear-gradient(176deg, $rose, $violet);
+$btn-color2: linear-gradient(176deg, lighten($rose, 7%), lighten($violet, 7%));
 
 @keyframes anim-menu {
     from {
