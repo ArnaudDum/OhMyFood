@@ -3,7 +3,7 @@ $rose: #FF79DA;
 $vert: #99E2D0;
 $greybg: #F2F2F2;
 $btn-color1: linear-gradient(176deg, $rose, $violet);
-$btn-color2: linear-gradient(176deg, lighten($rose, 7%), lighten($violet, 7%));
+$btn-color2: linear-gradient(176deg, lighten($rose, 4%), lighten($violet, 4%));
 
 @keyframes anim-menu {
     from {
@@ -32,4 +32,31 @@ $btn-color2: linear-gradient(176deg, lighten($rose, 7%), lighten($violet, 7%));
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+@keyframes icon-move {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    };
+    80% {
+        transform: scale(1.15);
+        opacity: 1;
+    };
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    };
+}
+
+@keyframes icon-delete {
+    0% {
+        opacity: 1;
+    };
+    95% {
+        opacity: 1;
+    };
+    100% {
+        opacity: 0;
+    };
 }
