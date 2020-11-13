@@ -110,6 +110,9 @@
                 font-size: 1.1rem;
                 position: absolute;
                 left: -20px;
+                @media (max-width: 599px) {
+                    font-size: 1rem;
+                }
                 span {
                     font-weight: normal;
                     padding: 8px 14px 8px 14px;
@@ -162,6 +165,12 @@
         border-radius: 30px;
         position: relative;
         box-shadow: 0px 5px 15px darken($greybg, 10%);
+        @media (max-width: 599px) {
+            max-height: 330px;
+        }
+        @media (max-width: 375px) {
+            max-height: 280px;
+        }
         &--1 {
             background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
             background-position: center;
